@@ -35,6 +35,7 @@ python -m streamlit run main.py
 - 페이지 이동: 왼쪽 사이드바에서 사건별 상세 페이지 선택 가능
 
 ## 4. 폴더 구조
+```bash
 dashboard/
 ├─ main.py                 # 메인 페이지
 ├─ pages/                  # 서브 페이지 (사건별 상세 분석)
@@ -42,3 +43,4 @@ dashboard/
 ├─ images/                 # 시각화 결과 이미지
 ├─ requirements.txt        # 패키지 목록
 └─ README.md               # 대시보드 실행 가이드
+```
