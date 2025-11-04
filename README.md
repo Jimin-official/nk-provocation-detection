@@ -39,6 +39,7 @@ All data were collected, cleaned, analyzed, and visualized through an **interact
 ---
 
 ## 🗂️ Project Structure  
+```bash
 nk-provocation-detection/ # Core analysis and visualization project
 │
 ├── dashboard/ # Streamlit dashboard application
@@ -81,7 +82,7 @@ nk-provocation-detection/ # Core analysis and visualization project
 │ └── nk_provocation_detection_presentation.pdf
 │
 └── README.md # (This document)
-
+```
 ---
 
 ## ⚙️ How to Run  
