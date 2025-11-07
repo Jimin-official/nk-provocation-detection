@@ -40,45 +40,45 @@ All data were collected, cleaned, analyzed, and visualized through an **interact
 
 ## 🗂️ Project Structure  
 ```bash
-nk-provocation-detection/ # Core analysis and visualization project
+NK-Provocation-Detection/
 │
-├── streamlit_app/ # Streamlit dashboard application
-│ ├── images/ # Word cloud and visualization assets
-│ ├── pages/ # Sub-pages (attack.py, missile.py, nuclear.py, balloon.py)
-│ ├── utils/ # Helper functions (icons, charts, etc.)
-│ ├── main.py # Main dashboard file
-│ ├── README.md
-│ └── requirements.txt
-│
-├── data/ # Cleaned and processed datasets
+├── 01_data/ # Cleaned and processed datasets
 │ ├── attack.csv
 │ ├── balloon.csv
 │ ├── missile.csv
 │ ├── nuclear.csv
 │ └── provocation.csv
 │
-├── docs/ # Documentation
-│ ├── project_proposal/ # Project proposal document
-│ ├── references/ # Data sources and bibliographic references
-│ └── mysql_setup.md # MySQL setup and connection guide
-│
-├── notebooks/ # Jupyter notebooks for ETL and analysis
-│ ├── crawling/ # News crawling scripts
+├── 02_notebooks/ # Jupyter notebooks for ETL and analysis
+│ ├── 01_crawling/ # News crawling scripts
 │ │ ├── kr_articles_crawl_by_country.ipynb
 │ │ ├── kr_articles_crawl_preprocess_all.ipynb
 │ │ └── nk_articles_crawl_by_country_all.ipynb
 │ │
-│ ├── preprocessing/ # Data cleaning and merging
+│ ├── 02_preprocessing/ # Data cleaning and merging
 │ │ ├── nk_kr_articles_preprocessing.ipynb
 │ │ └── provocation_data_clean_merge.ipynb
 │ │
-│ └── analysis/ # Exploratory and visualization analyses
+│ └── 03_analysis/ # Exploratory and visualization analyses
 │ ├── generate_wordclouds.ipynb
 │ ├── keyword_frequency_comparison.ipynb
 │ ├── news_volume_timeline_analysis.ipynb
 │ └── provocation_type_regime_analysis.ipynb
 │
-├── presentation/ # Final presentation materials
+├── 03_streamlit_app/ # Streamlit dashboard application
+│ ├── images/ # Word cloud and visualization assets
+│ ├── pages/ # Sub-pages (Attack, Missile, Nuclear, Balloon)
+│ ├── utils/ # Helper functions (preprocessing, charts, etc.)
+│ ├── main.py # Main dashboard script
+│ ├── README.md
+│ └── requirements.txt
+│
+├── 04_docs/ # Documentation
+│ ├── project_proposal/ # Project proposal document
+│ ├── references/ # Data sources and bibliographic references
+│ └── mysql_setup.md # MySQL setup and connection guide
+│
+├── 05_presentation/ # Final presentation materials
 │ └── nk_provocation_detection_presentation.pdf
 │
 └── README.md # (This document)
