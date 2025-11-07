@@ -42,7 +42,7 @@ All data were collected, cleaned, analyzed, and visualized through an **interact
 ```bash
 nk-provocation-detection/ # Core analysis and visualization project
 │
-├── dashboard/ # Streamlit dashboard application
+├── streamlit_app/ # Streamlit dashboard application
 │ ├── images/ # Word cloud and visualization assets
 │ ├── pages/ # Sub-pages (attack.py, missile.py, nuclear.py, balloon.py)
 │ ├── utils/ # Helper functions (icons, charts, etc.)
